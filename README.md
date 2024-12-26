@@ -1,8 +1,8 @@
-# Python-Conditional-and-Looping-statements
+# Python Conditional and Looping statements
 Basic python conditional and looping statements.
 
 ## Exercise-1
-## Name your file: MonthNames.py Write a program that reads an integer value between 1 and 12 from the user and prints output the corresponding month of the year.
+Name your file: MonthNames.py Write a program that reads an integer value between 1 and 12 from the user and prints output the corresponding month of the year.
 
 code:
 
