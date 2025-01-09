@@ -58,6 +58,89 @@ Result:
   ![Screenshot (238)](https://github.com/user-attachments/assets/5ff6f607-c501-483d-8eba-ac20bacca629)
 
 
+## Exercise-3
+Name your file: BodyMassIndex.py Write a program to calculate your BMI and give weight status. Body Mass Index (BMI) is an internationally used measurement to check if you are a healthy weight for your height.The metric BMI formula accepts weight in kilograms and height in meters: BMI= weight(kg)/height2(m2) BMI Weight Status Categories table BMI range - kg/m2 Category Below 18.5 Underweight 18.5 -24.9 Normal 25 - 29.9 Overweight 30 & Above Obese 
+
+code:
+
+    weight=float(input("Enter your weight in (kg):"))
+    height=float(input("Enter your height in (m):"))
+    BMI=weight/(height**2)
+    if BMI<18.5:
+    print('You are in the "under weight" range')
+    elif 18.5<= BMI <=24.9 :
+    print('You are in the "normal" range')
+    elif 25<= BMI <=29.9 :
+    print('You are in the "over wight" range')
+    else:
+    print('You are in the "obese" range')
+
+Explanation:
+  
+  * prompts the user to enter their weight in kilograms.
+  * prompts the user to enter their height in meters.
+  * The formula for BMI is weight (in kilograms) divided by the square of height (in meters).
+  * If the if condition (BMI < 18.5) is true, this line prints the message "You are in the "under weight" range".
+  * if BMI is greater than or equal to 18.5 and less than or equal to 24.9. prints the message "You are in the "normal" range".
+  * if BMI is greater than or equal to 25 and less than or equal to 29.9. print over weight.
+  * if BMI is equal or above 30 then it prints obese.
+
+Result:
+  ![Screenshot (244)](https://github.com/user-attachments/assets/b6f886bb-f938-4e3e-899d-6aed40223405)
+
+
+
+## Exercise-4
+Write a Python program to receive 3 numbers from the user and print the greatest among them.
+
+code:
+
+    li=[]
+    for i in range(3):
+    n=int(input("enter the number:"))
+    li.append(n)
+    print(max(li))
+
+Explanation:
+  
+  * creates an empty list named li.
+  * The loop will execute three times, with the variable i taking on the values 0, 1, and 2 in each iteration.
+  * adds the entered integer (n) to the end of the list li using the append() method.
+  * max() is a built-in function in Python that finds the largest value within a list.
+  
+
+Result:
+  ![Screenshot (245)](https://github.com/user-attachments/assets/aaf35fac-a7ac-44fb-bc1f-3fbbf65eb1f5)
+
+
+
+## Exercise-5
+Find the factorial of a given number using loops(note the number is received from the user
+
+code:
+
+    n=int(input(" enter the number:"))
+    num=n
+    fact=1
+    while n!=0:
+    fact=fact*n
+    n=n-1
+
+    print(" factorial of",num,"is",fact)
+
+Explanation:
+  
+  * takes an integer input from the user and stores it in the variable n.
+  * This line initializes a variable fact to 1. This variable will be used to store the calculated factorial.
+  * while loop that continues to execute as long as the value of n is not zero.
+  * multiplies the current value of fact with the current value of n and updates the fact variable.then decrements the value of n by 1 in each iteration of the loop.
+  * prints the calculated factorial. It displays the original number (num) and the calculated factorial (fact).
+
+  
+
+Result:
+  ![Screenshot (247)](https://github.com/user-attachments/assets/3c160c5f-dca0-4277-a8ce-a36d337b6e99)
+
 
 
   
