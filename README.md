@@ -143,4 +143,117 @@ Result:
 
 
 
+## Exercise-6
+ Reverse a number using while loop
+
+code:
+
+    n=int(input("Enter the number:"))
+    reverse=0
+    while n!=0:
+    digit=n%10
+    reverse=10*reverse+digit
+    n=n//10
+    print("reverse of the number is",reverse)
+
+Explanation:
   
+  * Get Input.
+  * This line initializes a variable fact to 1. This variable will be used to store the calculated factorial.
+  * Initialize Reverse.
+  * extracts the last digit of the given input number,This appends the extracted digit to the 'reverse' variable,This removes the last digit from input by integer division.
+  * Print Result.
+
+  
+
+Result:
+  ![Screenshot (246)](https://github.com/user-attachments/assets/f3aa4c19-f360-41f7-b56c-69cd28f8a98d)
+
+  
+
+
+## Exercise-7
+ Finding the multiples of a number using loop
+
+code:
+
+    n=int(input("enter the number:"))
+    for i in range(1,11):
+    print(i,"*", n ,"=", i*n)
+
+Explanation:
+  
+  * Get Input.
+  * loop iterates 10 times, with the variable 'i' taking values from 1 to 10 in each iteration,and prints the multiplication table of the input number 'n' by multiplying 'n' with each value of 'i' in the 
+    loop.
+  * Displays the multiplication table of the input number on the console.
+  
+
+  
+
+Result:
+  ![Screenshot (248)](https://github.com/user-attachments/assets/df62472b-0dea-4684-b978-37bff8ca8d66)
+
+
+
+
+## Exercise-8
+ Write a program to print the inputted value as it is and break the loop if the value is 'done'.
+
+code:
+
+    while  True:
+    value = input("enter the value:")
+    if value!='done':
+        print(value)
+    else:
+        break
+
+Explanation:
+  
+  * creates an infinite loop that continuously executes the code within it.
+  * Then prompts the user to enter a value and stores it in the variable 'value'.
+  * Then checks if the entered value is not equal to the string "done".If the condition is True,prints the entered value to the console.
+  * If the entered value is equal to "done" then break and exit from the loop and end the programme.
+  
+  
+
+  
+
+Result:
+  ![Screenshot (249)](https://github.com/user-attachments/assets/500ceb93-d1b8-447d-b4e5-bc8f659a4410)
+
+
+
+## Exercise-9
+Program that prints the numbers from 1 to 10. But for multiples of three print "Fizz" instead of the number and for the multiple of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz"
+
+code:
+
+    for i in range(1,10):
+    if i%3==0:
+        print("Fizz")
+    elif i%5==0:
+        print("Buzz")
+    elif i%3 and i%5 ==0:
+        print("FizzBuzz")
+    else:
+        print(i)
+
+Explanation:
+  
+  * creates a  loop that iterates through numbers from 1 to 9 (inclusive).
+  * checks if the current number 'i' is divisible by 3, then print "Fuzz"
+  * checks if the current number 'i' is divisible by 5,then print "Buzz"
+  * checks if the current number 'i' is divisible by 5 and 3,then print "FuzzBuzz"
+  * Otherwise print the same number .
+    
+  
+  
+  
+
+  
+
+Result:
+  ![Screenshot (250)](https://github.com/user-attachments/assets/2245f150-cd53-43a4-9a3f-fca92a9b6099)
+
