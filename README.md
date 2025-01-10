@@ -257,3 +257,34 @@ Explanation:
 Result:
   ![Screenshot (250)](https://github.com/user-attachments/assets/2245f150-cd53-43a4-9a3f-fca92a9b6099)
 
+
+
+
+## Exercise-10
+Program to print the following pattern:
+5 4 3 2 1
+4 3 2 1
+3 2 1
+2 1
+1
+
+code:
+
+    for i in range(5,0,-1):
+
+    for j in range(i,0,-1):
+        print(j,end=" ")
+
+    print()
+
+Explanation:
+  
+  * First loop iterates 5 times with the variable 'i' taking values from 5 down to 1 in steps of -1 (i.e., 5, 4, 3, 2, 1).
+  * Then nested loop iterates 'i' times with the variable 'j' taking values from 'i' down to 1 in steps of -1.
+  * Next prints the current value of 'j' followed by a space, without moving to the next line.
+  * print(): This line moves the cursor to the next line, creating a new row for the next iteration of the outer loop
+ 
+    
+Result:
+  ![Screenshot (251)](https://github.com/user-attachments/assets/eea5e272-1051-4e7f-898e-6d9f43bd9b33)
+
